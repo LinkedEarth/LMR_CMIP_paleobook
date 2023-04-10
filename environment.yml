@@ -1,10 +1,41 @@
 name: cookbook-dev
 channels:
   - conda-forge
+  - defaults
 dependencies:
+  # jupyterhub-singleuser version 3 or greater is a requirement for working well
+  # with a JupyterHub such as at https://linkedearth.2i2c.cloud. After
+  # https://github.com/jupyterhub/repo2docker/pull/1239 is merged, this doesn't
+  # need to be specified.
+  #
+  - jupyterhub-singleuser>=3.0
+  - cartopy>=0.21.1
+  - python=3.10
+  - numpy
+  - netcdf4
+  - aiohttp
+  - zarr
+  - s3fs
+  - fsspec
+  - requests
+  - xarray
+  - cftime
+  - dask
+  - intake
+  - climlab
+  - jupyter=1.0.0
+  - jupyterlab=3.5.2
   - jupyter-book
-  - jupyterlab
   - jupyter_server<2
   - pip
   - pip:
-      - sphinx-pythia-theme
+    - setuptools
+    - pangaeapy
+    - pyleoclim==0.10.0
+    - nc-time-axis
+    - ipympl
+    - folium
+    - sphinx-pythia-theme
+    - intake-esm
+
+
