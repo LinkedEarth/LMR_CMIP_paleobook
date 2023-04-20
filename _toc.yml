@@ -1,6 +1,12 @@
 format: jb-book
 root: README
 parts:
-  - caption: Introduction
+  - caption: Lifehacks
     chapters:
-      - file: notebooks/notebook-template
+      - file: notebooks/lifehacks/data_from_esm_cloudcat
+      - file: notebooks/lifehacks/spatial_snapshots_xarray_bonuses
+      - file: notebooks/lifehacks/widget_primer
+  - caption: Science Bits
+    chapters:
+      - file: notebooks/science_bits/CMIP6_LMR
+      - file: VICS_dashboard
