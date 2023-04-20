@@ -1,4 +1,4 @@
-name: cookbook-dev
+name: paleobook-dev
 channels:
   - conda-forge
   - defaults
@@ -11,18 +11,18 @@ dependencies:
   - jupyterhub-singleuser>=3.0
   - cartopy>=0.21.1
   - python=3.10
-  - numpy
-  - netcdf4
-  - aiohttp
-  - zarr
+  - climlab
   - s3fs
+  - gcsfs
   - fsspec
   - requests
   - xarray
-  - cftime
-  - dask
+  - tqdm
   - intake
-  - climlab
+  - fsspec
+  - cftime
+  - nc-time-axis
+  - esgf-pyclient
   - jupyter=1.0.0
   - jupyterlab=3.5.2
   - jupyter-book
@@ -31,8 +31,7 @@ dependencies:
   - pip:
     - setuptools
     - pangaeapy
-    - pyleoclim==0.10.0
-    - nc-time-axis
+    - pyleoclim==0.11.0
     - ipympl
     - folium
     - sphinx-pythia-theme
