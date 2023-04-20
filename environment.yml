@@ -22,11 +22,11 @@ dependencies:
   - fsspec
   - cftime
   - nc-time-axis
-  - esgf-pyclient
+#  - esgf-pyclient
   - jupyter=1.0.0
   - jupyterlab=3.5.2
   - jupyter-book
-  - jupyter_server<2
+#  - jupyter_server<2
   - pip
   - pip:
     - setuptools
