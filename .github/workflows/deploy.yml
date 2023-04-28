@@ -27,6 +27,7 @@ jobs:
          conda install -n base conda-libmamba-solver
          conda config --set solver libmamba
          conda env create -f environment.yml
+         conda list
 
     # Build the book
     - name: Build the book
