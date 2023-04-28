@@ -1,4 +1,4 @@
-<img src="thumbnail.svg" alt="thumbnail" width="300"/>
+<img src="https://github.com/LinkedEarth/linkedearth.github.io/blob/main/_images/LinkedEarth_small.png?raw=true" alt="thumbnail"/>
 
 # LMR-CMIP6 Paleobook
 
