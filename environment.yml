@@ -38,6 +38,5 @@ dependencies:
 #    - sphinx_press_theme
     - pydata-sphinx-theme
     - intake-esm
-    - kernelspec
 
 
