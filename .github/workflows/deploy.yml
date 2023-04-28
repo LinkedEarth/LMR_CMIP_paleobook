@@ -27,6 +27,10 @@ jobs:
          conda install -n base conda-libmamba-solver
          conda config --set solver libmamba
          conda env create -f environment.yml
+         pip install jupyter-book
+         pip install ghp-import
+         pip install pyleoclim
+         PATH="${PATH}:${HOME}/.local/bin"
          conda list
 
     # Build the book
