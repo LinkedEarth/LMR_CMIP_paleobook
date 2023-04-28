@@ -26,7 +26,7 @@ jobs:
       run: |
          conda install -n base conda-libmamba-solver
          conda config --set solver libmamba
-         conda env create -f environment.yml
+         conda env create -n conda-env-paleobook-dev-py -f environment.yml
          pip install jupyter-book
          pip install ghp-import
 #         PATH="${PATH}:${HOME}/.local/bin"
