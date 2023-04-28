@@ -33,7 +33,7 @@ html:
   use_repository_button: true
   announcement: ""
 
-launch_buttons:
-  notebook_interface: "jupyterlab"
-  binderhub_url: ""
-  jupyterhub_url: ""
+#launch_buttons:
+#  notebook_interface: "jupyterlab"
+#  binderhub_url: ""
+#  jupyterhub_url: ""
