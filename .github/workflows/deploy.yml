@@ -24,7 +24,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
 
     # setup libmamba
-    - name: Install dependencies
+    - name: setup libmamba
       run: |
          conda install -n base conda-libmamba-solver
          conda config --set solver libmamba
@@ -33,10 +33,11 @@ jobs:
       uses: goanpeca/setup-miniconda@v1
       with:
           auto-update-conda: true
-          auto-activate-base: false
           python-version: ${{ matrix.python-version }}
           environment-file: environment.yml
           activate-environment: conda-env-paleobook-dev-py
+          auto-activate-base: false
+          miniconda-version: 'latest'
 
     - name: Conda info
       shell: bash -l {0}  # activate the conda environment
