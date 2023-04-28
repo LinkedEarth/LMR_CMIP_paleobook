@@ -1,37 +1,34 @@
-<img src="thumbnail.png" alt="thumbnail" width="300"/>
+<img src="thumbnail.svg" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# LMR-CMIP6 Paleobook
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Paleobook covers
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+Help!  I need somebody! 
 
 ## Authors
 
-[First Author](@first-author), [Second Author](@second-author), etc. _Acknowledge primary content authors here_
+[Jordan Landers](@jordanplanders), [Julien Emile-Geay](@CommonClimate)
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/jordanplanders/LMR_CMIP_paleobook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jordanplanders/LMR_CMIP_paleobook" />
 </a>
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This Paleobook is made up of two sections: Lifehacks, and Science Bits
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Lifehacks
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+This section covers nuts and bolts about how to access cloud available data, process it, and make some stock visualizations
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Science Bits
 
-(Add content for this section, e.g., "Example workflows include ... ")
+This section applies the technical skills from the Lifehacks section to do standard analysis.
 
 ## Running the Notebooks
 
@@ -42,8 +39,7 @@ You can either run the notebook using [Binder](https://mybinder.org/) or on your
 The simplest way to interact with a Jupyter Notebook is through
 [Binder](https://mybinder.org/), which enables the execution of a
 [Jupyter Book](https://jupyterbook.org) in the cloud. The details of how this works are not
-important for now. All you need to know is how to launch a Pythia
-Cookbooks chapter via Binder. Simply navigate your mouse to
+important for now. All you need to know is how to launch a PaleoBooks chapter via Binder. Simply navigate your mouse to
 the top right corner of the book chapter you are viewing and click
 on the rocket ship icon, (see figure below), and be sure to select
 “launch Binder”. After a moment you should be presented with a
@@ -58,22 +54,16 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/jordanplanders/LMR_CMIP_paleobook` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/jordanplanders/LMR_CMIP_paleobook.git
    ```
 
-1. Move into the `cookbook-example` directory
-   ```bash
-   cd cookbook-example
-   ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate conda-env-paleobook-dev-py
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash

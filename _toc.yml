@@ -9,4 +9,4 @@ parts:
   - caption: Science Bits
     chapters:
       - file: notebooks/science_bits/CMIP6_LMR
-      - file: VICS_dashboard
+      - file: notebooks/science_bits/VICS_dashboard

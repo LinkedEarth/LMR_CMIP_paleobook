@@ -1,4 +1,4 @@
-name: paleobook-dev
+name: conda-env-paleobook-dev-py
 channels:
   - conda-forge
   - defaults
@@ -35,6 +35,7 @@ dependencies:
     - ipympl
     - folium
     - sphinx-pythia-theme
+    - sphinx_press_theme
     - intake-esm
 
 
