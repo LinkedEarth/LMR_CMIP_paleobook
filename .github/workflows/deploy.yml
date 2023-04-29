@@ -36,10 +36,12 @@ jobs:
         conda info
         conda env list
 
+    # Print Conda info
     - name: Conda info
       shell: bash -l {0}
       run: conda info
 
+    # install pips
     - name: Bonus pips
       run: |
         pip install jupyter-book
