@@ -28,8 +28,6 @@ jobs:
          conda install -n base conda-libmamba-solver
          conda config --set solver libmamba
          conda env create -n conda-env-paleobook-dev-py -f environment.yml
-         conda init bash
-         source ~/.bashrc
          conda activate conda-env-paleobook-dev-py
 
     - name: Conda info
