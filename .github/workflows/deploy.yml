@@ -33,10 +33,16 @@ jobs:
           activate-environment: conda-env-paleobook-dev-py
           environment-file: environment.yml
 
+    - name: ipykernel
+      run: |
+        pip install ipykernel
+        python -m ipykernel install --user --name conda-env-paleobook-dev-py
+
     # Print Conda info
     - name: Conda info
       shell: bash -l {0}
-      run: conda info
+      run: |
+        conda info
 
     # install pips
     - name: Bonus pips
