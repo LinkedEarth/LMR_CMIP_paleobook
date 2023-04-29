@@ -32,9 +32,6 @@ jobs:
           miniforge-version: latest
           activate-environment: conda-env-paleobook-dev-py
           environment-file: environment.yml
-      run: |
-        conda info
-        conda env list
 
     # Print Conda info
     - name: Conda info
