@@ -23,7 +23,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
 
-    - name: Setup
+    - name: Setup with Mamba
       uses: conda-incubator/setup-miniconda@v2
       with:
           auto-update-conda: true
@@ -32,11 +32,12 @@ jobs:
           miniforge-version: latest
           activate-environment: conda-env-paleobook-dev-py
           environment-file: environment.yml
-
-    - name: Conda info
       run: |
         conda info
-        conda list
+        conda env list
+
+    - name: Bonus pips
+      run: |
         pip install jupyter-book
         pip install ghp-import
 
