@@ -36,5 +36,5 @@ html:
 
 launch_buttons:
   notebook_interface: "jupyterlab"
-  binderhub_url: "https://mybinder.org/v2/gh/jordanplanders/LMR_CMIP_paleobook/main"
+  binderhub_url: ""
 #  jupyterhub_url: ""
