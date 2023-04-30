@@ -22,11 +22,12 @@ dependencies:
   - fsspec
   - cftime
   - nc-time-axis
+  - seaborn
+  - pandas>=2.0.0
 #  - esgf-pyclient
   - jupyter=1.0.0
   - jupyterlab=3.5.2
   - jupyter-book
-  - seaborn
 #  - jupyter_server<2
   - pip
   - pip:
@@ -37,7 +38,7 @@ dependencies:
     - folium
 #    - sphinx-pythia-theme
 #    - sphinx_press_theme
-    - pydata-sphinx-theme
+#    - pydata-sphinx-theme
     - intake-esm
 
 
