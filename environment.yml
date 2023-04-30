@@ -22,8 +22,6 @@ dependencies:
   - fsspec
   - cftime
   - nc-time-axis
-  - seaborn
-  - pandas>=2.0.0
 #  - esgf-pyclient
   - jupyter=1.0.0
   - jupyterlab=3.5.2
@@ -34,6 +32,8 @@ dependencies:
     - setuptools
     - pangaeapy
     - pyleoclim==0.11.0
+    - seaborn
+    - pandas>=2.0.0
     - ipympl
     - folium
 #    - sphinx-pythia-theme
