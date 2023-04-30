@@ -43,6 +43,7 @@ jobs:
       shell: bash -l {0}
       run: |
         conda list
+        conda info
 
 #    # install pips
 #    - name: Bonus pips
