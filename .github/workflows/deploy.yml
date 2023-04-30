@@ -47,6 +47,8 @@ jobs:
     # install pips
     - name: Bonus pips
       run: |
+        pip install seaborn
+        pip install pandas>=2.0.0
         pip install jupyter-book
         pip install ghp-import
 
