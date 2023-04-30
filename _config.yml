@@ -9,7 +9,7 @@ only_build_toc_files: true
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: cache
+  execute_notebooks: auto
   timeout: 600
 
 # Define the name of the latex output file for PDF builds
@@ -34,7 +34,7 @@ html:
   use_repository_button: true
   announcement: ""
 
-#launch_buttons:
-#  notebook_interface: "jupyterlab"
-#  binderhub_url: ""
+launch_buttons:
+  notebook_interface: "jupyterlab"
+  binderhub_url: "https://mybinder.org/v2/gh/jordanplanders/LMR_CMIP_paleobook/main"
 #  jupyterhub_url: ""
