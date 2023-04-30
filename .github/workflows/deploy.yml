@@ -42,15 +42,15 @@ jobs:
     - name: Conda info
       shell: bash -l {0}
       run: |
-        conda info
+        conda list
 
-    # install pips
-    - name: Bonus pips
-      run: |
-        pip install seaborn
-        pip install pandas>=2.0.0
-        pip install jupyter-book
-        pip install ghp-import
+#    # install pips
+#    - name: Bonus pips
+#      run: |
+#        pip install seaborn
+#        pip install pandas>=2.0.0
+#        pip install jupyter-book
+#        pip install ghp-import
 
     # Build the book
     - name: Build book TOC file
@@ -68,6 +68,6 @@ jobs:
 #        publish_branch: paleobook
 #        publish_dir: ./_build/html
 
-    - name: Push _build/html to gh-pages
+    - name: Push _build/html to paleobook
       run: |
         ghp-import ./_build/html -f -p -n -b paleobook
