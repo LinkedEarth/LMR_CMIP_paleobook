@@ -25,7 +25,6 @@ dependencies:
 #  - esgf-pyclient
   - jupyter=1.0.0
   - jupyterlab=3.5.2
-  - jupyter-book
 #  - jupyter_server<2
   - pip
   - pip:
@@ -40,5 +39,6 @@ dependencies:
 #    - sphinx_press_theme
 #    - pydata-sphinx-theme
     - intake-esm
+    - jupyter-book
 
 
