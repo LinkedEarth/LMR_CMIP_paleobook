@@ -1,5 +1,3 @@
-<img src="https://github.com/LinkedEarth/linkedearth.github.io/blob/main/_images/LinkedEarth_small.png?raw=true" alt="thumbnail"/>
-
 # LMR-CMIP6 Paleobook
 
 This Paleobook covers
@@ -32,7 +30,7 @@ This section applies the technical skills from the Lifehacks section to do stand
 
 ## Running the Notebooks
 
-You can either run the notebook using [Binder](https://mybinder.org/) or on your local machine.
+You can either run the notebook using [Binder](https://mybinder.org/), or on your local machine.
 
 ### Running on Binder
 
