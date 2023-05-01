@@ -49,6 +49,7 @@ jobs:
         conda list
         conda info
         jupyter-book toc .
+        jupyter-book build .
 
 #    # install pips
 #    - name: Bonus pips
@@ -58,13 +59,13 @@ jobs:
 #        pip install jupyter-book
 #        pip install ghp-import
 
-    # Build the book
+#     Build the book
 #    - name: Build book TOC file
 #      run: |
 #        jupyter-book toc .
-    - name: Build the book
-      run: |
-        jupyter-book build .
+#    - name: Build the book
+#      run: |
+#        jupyter-book build .
 
     # Deploy the book's HTML to gh-pages branch
 #    - name: GitHub Pages action
