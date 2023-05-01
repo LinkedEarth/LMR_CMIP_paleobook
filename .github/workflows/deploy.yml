@@ -50,6 +50,7 @@ jobs:
         conda info
         jupyter-book toc .
         jupyter-book build .
+        ghp-import ./_build/html -f -p -n -b paleobook
 
 #    # install pips
 #    - name: Bonus pips
@@ -75,6 +76,6 @@ jobs:
 #        publish_branch: paleobook
 #        publish_dir: ./_build/html
 
-    - name: Push _build/html to paleobook
-      run: |
-        ghp-import ./_build/html -f -p -n -b paleobook
+#    - name: Push _build/html to paleobook
+#      run: |
+#        ghp-import ./_build/html -f -p -n -b paleobook
