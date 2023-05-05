@@ -1,10 +1,13 @@
 # LMR-CMIP6 Paleobook
 
-This Paleobook covers
+This Paleobook covers basic examples of how to access, process and visualize CMIP6 and Last Millennium Reanalysis Project.  
 
 ## Motivation
 
-Help!  I need somebody! 
+Studying climate data from carefully defined simulations, such as the PMIP experiments, and integrating them with real-world data poses both technical and scientific challenges.  
+Here we look at how to leverage multiple cloud-based data sources to examine a few aspects of climate evolution over the last millennium. 
+In addition to information about how to pull data using `intake` and wrangle it using `Xarray`, 
+these notebooks include tips about how to explore climate variables as time series and spatially resolved snapshots. 
 
 ## Authors
 
@@ -26,7 +29,7 @@ This section covers nuts and bolts about how to access cloud available data, pro
 
 ### Science Bits
 
-This section applies the technical skills from the Lifehacks section to do standard analysis.
+This section applies technical skills from the Lifehacks section an a pair of example analyses.
 
 ## Running the Notebooks
 
