@@ -5,9 +5,7 @@ This Paleobook covers basic examples of how to access, process and visualize CMI
 ## Motivation
 
 Studying climate data from carefully defined simulations, such as the PMIP experiments, and integrating them with real-world data poses both technical and scientific challenges.  
-Here we look at how to leverage multiple cloud-based data sources to examine a few aspects of climate evolution over the last millennium. 
-In addition to information about how to pull data using `intake` and wrangle it using `Xarray`, 
-these notebooks include tips about how to explore climate variables as time series and spatially resolved snapshots. 
+Here we look at how to leverage multiple cloud-based data sources to examine a few aspects of climate evolution over the last millennium. In addition to information about how to pull data using `intake` and wrangle it using `Xarray`, these notebooks include tips about how to explore climate variables as time series and spatially resolved snapshots. 
 
 ## Authors
 
@@ -21,15 +19,15 @@ these notebooks include tips about how to explore climate variables as time seri
 
 ## Structure
 
-This Paleobook is made up of two sections: Lifehacks, and Science Bits
+This Paleobook is made up of two sections: Lifehacks, and Science Bits.
 
 ### Lifehacks
 
-This section covers nuts and bolts about how to access cloud available data, process it, and make some stock visualizations
+This section covers nuts and bolts about how to access cloud available data, process it, and make some stock visualizations.
 
 ### Science Bits
 
-This section applies technical skills from the Lifehacks section an a pair of example analyses.
+This section applies technical skills from the Lifehacks section in a pair of example analyses.
 
 ## Running the Notebooks
 
