@@ -13,8 +13,8 @@ Here we look at how to leverage multiple cloud-based data sources to examine a f
 
 ### Contributors
 
-<a href="https://github.com/jordanplanders/LMR_CMIP_paleobook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jordanplanders/LMR_CMIP_paleobook" />
+<a href="https://github.com/LinkedEarth/LMR_CMIP_paleobook/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LinkedEarth/LMR_CMIP_paleobook" />
 </a>
 
 ## Structure
@@ -53,10 +53,10 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-1. Clone the `https://github.com/jordanplanders/LMR_CMIP_paleobook` repository:
+1. Clone the `https://github.com/LinkedEarth/LMR_CMIP_paleobook` repository:
 
    ```bash
-    git clone https://github.com/jordanplanders/LMR_CMIP_paleobook.git
+    git clone https://github.com/LinkedEarth/LMR_CMIP_paleobook.git
    ```
 
 1. Create and activate your conda environment from the `environment.yml` file
