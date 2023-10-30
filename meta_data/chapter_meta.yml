@@ -1,0 +1,72 @@
+shortname: LMR-CMIP6
+type: Paleobook
+thumbnail: thumbnail.png
+parts:
+  - caption: Lifehacks
+    chapters:
+      - shortname: data_from_esm_cloudcat
+        filename: data_from_esm_cloudcat
+        thumbnail: data_from_esm_cloudcat.png
+        tags:
+          domains:
+            - AWS
+            - cloud-ready data
+            - data viz
+            - CMIP6
+          packages:
+            - intake
+            - AWS
+            - xarray
+            - pandas
+      - shortname: spatial_snapshots
+        filename: spatial_snapshots_xarray_bonuses
+        thumbnail: spatial_snapshots_xarray_bonuses.png
+        tags:
+          domains:
+            - model output
+            - CMIP6
+            - coordinate systems
+          packages:
+            - xarray
+            - matplotlib
+            - cartopy
+            - pandas
+      - shortname: widget_primer
+        filename: widget_primer
+        thumbnail: widget_primer.png
+        tags:
+          domains:
+            - model output
+          packages:
+            - ipywidgets
+            - matplotlib
+  - caption: Science Bits
+    chapters:
+      - shortname: CMIP6_LMR
+        filename: CMIP6_LMR
+        thumbnail: CMIP6_LMR.png
+        tags:
+          domains:
+            - model output
+            - LMR
+            - CMIP6
+          packages:
+            - xarray
+            - matplotlib
+            - cartopy
+            - pandas
+            - pyleoclim
+      - shortname: VICS_dashboard
+        filename: VICS_dashboard
+        thumbnail: VICS_dashboard.png
+        tags:
+          domains:
+            - Volcanic Input
+            - Holocene climate
+            - LMR
+            - CMIP6
+          packages:
+            - xarray
+            - matplotlib
+            - cartopy
+            - ipywidgets
