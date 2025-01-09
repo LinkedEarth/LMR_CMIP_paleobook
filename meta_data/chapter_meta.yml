@@ -4,7 +4,7 @@ thumbnail: thumbnail.png
 parts:
   - caption: Lifehacks
     chapters:
-      - shortname: data_from_esm_cloudcat
+      - shortname: Accessing cloud-hosted CMIP6 output
         filename: data_from_esm_cloudcat
         thumbnail: data_from_esm_cloudcat.png
         tags:
@@ -18,7 +18,7 @@ parts:
             - AWS
             - xarray
             - pandas
-      - shortname: spatial_snapshots
+      - shortname: Spatiotemporal diagnostics using `xarray`
         filename: spatial_snapshots_xarray_bonuses
         thumbnail: spatial_snapshots_xarray_bonuses.png
         tags:
@@ -31,7 +31,7 @@ parts:
             - matplotlib
             - cartopy
             - pandas
-      - shortname: widget_primer
+      - shortname: Data exploration with `ipywidgets`
         filename: widget_primer
         thumbnail: widget_primer.png
         tags:
@@ -42,7 +42,7 @@ parts:
             - matplotlib
   - caption: Science Bits
     chapters:
-      - shortname: CMIP6_LMR
+      - shortname: Comparing CMIP6 & LMR
         filename: CMIP6_LMR
         thumbnail: CMIP6_LMR.png
         tags:
@@ -56,7 +56,9 @@ parts:
             - cartopy
             - pandas
             - pyleoclim
-      - shortname: VICS_dashboard
+          formats:
+            - PaMoDaCo
+      - shortname: LMR & Volcanic Aerosols
         filename: VICS_dashboard
         thumbnail: VICS_dashboard.png
         tags:
@@ -70,3 +72,5 @@ parts:
             - matplotlib
             - cartopy
             - ipywidgets
+          formats:
+            - PaMoDaCo
