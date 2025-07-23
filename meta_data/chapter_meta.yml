@@ -42,7 +42,7 @@ parts:
             - matplotlib
   - caption: Science Bits
     chapters:
-      - shortname: Comparing CMIP6 & LMR
+      - shortname: Comparing CMIP6 & LMR surface temperature
         filename: CMIP6_LMR
         thumbnail: CMIP6_LMR.png
         tags:
@@ -58,7 +58,7 @@ parts:
             - pyleoclim
           formats:
             - PaMoDaCo
-      - shortname: LMR & Volcanic Aerosols
+      - shortname: Volcanic Response
         filename: VICS_dashboard
         thumbnail: VICS_dashboard.png
         tags:
