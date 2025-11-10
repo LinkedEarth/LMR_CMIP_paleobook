@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/614554628.svg)](https://doi.org/10.5281/zenodo.17574947)
+
 # LMR-CMIP6 Paleobook
 
 This Paleobook covers basic examples of how to access, process and visualize CMIP6 and Last Millennium Reanalysis Project.  
