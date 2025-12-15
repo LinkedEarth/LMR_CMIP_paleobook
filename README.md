@@ -17,6 +17,9 @@ Here we look at how to leverage multiple cloud-based data sources to examine a f
   <img src="https://contrib.rocks/image?repo=LinkedEarth/LMR_CMIP_paleobook" />
 </a>
 
+## Funding
+This work was supported by NSF Award ICER 2126510
+
 ## Structure
 
 This Paleobook is made up of two sections: Lifehacks, and Science Bits.
