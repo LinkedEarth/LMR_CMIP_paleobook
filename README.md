@@ -1,4 +1,5 @@
 # Comparing Simulated and Reconstructed Climate Variability over the Past Millennium
+[![DOI](https://zenodo.org/badge/614554628.svg)](https://doi.org/10.5281/zenodo.17574947)
 
 This Paleobook covers basic examples of how to access, process and visualize data from the [CMIP6 _past1000_ simulations](https://gmd.copernicus.org/articles/10/4005/2017/) and the [Last Millennium Reanalysis v2.1](https://doi.org/10.5194/cp-15-1251-2019).  
 
