@@ -1,6 +1,6 @@
 shortname: LMR-CMIP6
 type: Paleobook
-thumbnail: thumbnail.png
+thumbnail: book_logo.png
 parts:
   - caption: Lifehacks
     chapters:
