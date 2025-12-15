@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: LMR-CMIP6 Paleobook
-author: Jordan Landers (for a start)
+author: Jordan Landers, Julien Emile-Geay
 logo: logo.png
 copyright: "2023"
 only_build_toc_files: true

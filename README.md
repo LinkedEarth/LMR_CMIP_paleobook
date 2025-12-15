@@ -1,13 +1,12 @@
+# Comparing Simulated and Reconstructed Climate Variability over the Past Millennium
 [![DOI](https://zenodo.org/badge/614554628.svg)](https://doi.org/10.5281/zenodo.17574947)
 
-# LMR-CMIP6 Paleobook
-
-This Paleobook covers basic examples of how to access, process and visualize CMIP6 and Last Millennium Reanalysis Project.  
+This Paleobook covers basic examples of how to access, process and visualize data from the [CMIP6 _past1000_ simulations](https://gmd.copernicus.org/articles/10/4005/2017/) and the [Last Millennium Reanalysis v2.1](https://doi.org/10.5194/cp-15-1251-2019).  
 
 ## Motivation
 
-Studying climate data from carefully defined simulations, such as the PMIP experiments, and integrating them with real-world data poses both technical and scientific challenges.  
-Here we look at how to leverage multiple cloud-based data sources to examine a few aspects of climate evolution over the last millennium. In addition to information about how to pull data using `intake` and wrangle it using `Xarray`, these notebooks include tips about how to explore climate variables as time series and spatially resolved snapshots. 
+A chief goal of paleoclimatology is to ground-truth models used for prediction using observations on which they have not  been tuned.  Long transient simulations climate those of the PMIP _past1000_ provide a unique opportunity to validate their representation of climate variability against the [wealth of data from the past 2 millennia](https://doi.org/10.1038/sdata.2017.88). This integration poses both technical and scientific challenges.  
+Here we look at how to leverage multiple cloud-based data sources to examine a few aspects of climate evolution over the last millennium. In addition to information about how to pull data using `intake` and wrangle it using `Xarray`, these notebooks include tips about how to explore climate variables as time series and as well as spatially resolved snapshots, particularly the response to explosive volcanism (the main climate forcing over this time period). 
 
 ## Authors
 
@@ -18,6 +17,9 @@ Here we look at how to leverage multiple cloud-based data sources to examine a f
 <a href="https://github.com/LinkedEarth/LMR_CMIP_paleobook/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=LinkedEarth/LMR_CMIP_paleobook" />
 </a>
+
+## Funding
+This work was supported by NSF Award ICER 2126510
 
 ## Structure
 
