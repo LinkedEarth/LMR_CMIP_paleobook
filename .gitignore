@@ -137,3 +137,4 @@ dmypy.json
 /mybookpath/*
 /LMR_CMIP_paleobookbook/*
 /mynewbook/*
+!/_build/
